@@ -1,0 +1,16 @@
+<h1>Property of Bristol</h1>
+
+<% feeds.each do |feed| %>
+  <h2><a href="<%= feed.url %>"><%= feed.title %></a></h2>
+  <dl>
+  <% feed.entries.each do |entry| %>
+  <dt><a href="<%= entry.url %>"><%= entry.title %></a></dt>
+  <dd>
+    <%= entry.content %>
+    
+    <p>By: <%= entry.author %> on <%= entry.published %></p>
+  
+  </dd>
+  <% end %>
+<% end %>
+

@@ -1,30 +1,36 @@
-# Here is a sample/template sinatra application ready for deployment to [Heroku](http://heroku.com).
+# Property of Bristol Web app
 
-**NOTE** This is for heroku.com and not herokugarden.com
+* Home Page - All titles or summaries from the feed
+* News Post: Blogger (RSS Feed)
+* Events: Eventful (RSS Feed)
+* Videos: Youtube/Viemo (not sure on RSS)
+* Twitter: Twitter (RSS Feed)
+* Photos: Flickr (RSS Feed)
+* Shop: Blog posts - In category Shop or similer (RSS Feed)
+* Podcast: Hosted podcast service (RSS Feed)
 
-* Create an acount in seconds at [Heroku](http://heroku.com/signup).
-* Install the gem `sudo gem install heroku`.
-* If you do not have an SSH key
-you'll need to [generate
-one](http://heroku.com/docs/index.html#_setting_up_ssh_public_keys)
-and [tell Heroku about
-it](http://heroku.com/docs/index.html#_manage_keys_on_heroku)
-* Clone this repo `git clone git://github.com/sinatra/heroku-sinatra-app [appname]`
-* `cd /path/to/project`
-* `heroku create [optional-app-name]` (You can rename your app with `heroku rename`)
-* `git push heroku master`
+# Shop Page
 
-**NOTES**
+Blogposts from the category Shop. Displayed in full text on the page. 
 
-The small amount of code is heavily commented. If you have questions
-or comments please use [the channels provided](http://www.sinatrarb.com/contributing.html) by the Sinatra community as
-we at Heroku are heavily involved in Sinatra.  Please use the Heroku [mailing list](http://groups.google.com/group/heroku) if you
-have non Sinatra questions.
+# Podcasts Page
+Podcast Details taken from the RSS, listed in full detail.  
 
-See [these guidelines](http://www.sinatrarb.com/contributing.html) for
-contributing or bugs.
+**For Steve**
+Home page: aggregate RSS feeds into one feed. 7 different Feeds being pulled in. 
+Shop page: Full text Blogger Feed in a category eg Shop. 
+Podcast Page: Full text podcast feed Items.
 
-Happy Development and Deploying!
 
-Sincerely,
-The Heroku Team
+**For Rich**
+Things to sign up for: 
+Twitter
+Blogger
+Youtube or Vimeo or Both
+Flickr
+Hosted Podcast Service (Need to research This one)
+Eventful
+
+Issues with design:
+Having different small text on news items (eg 00.00.00 via twitter / 3 videos) I'm think this would have to be consistent for each item, most likley 00.00.00 via twitter etc
+As discussed - sidebar images now all hard coded, you can just upload new ones, change links (easy code, no worries)

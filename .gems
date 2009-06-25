@@ -1,2 +1,6 @@
 nokogiri
+pauldix-sax-machine --source gems.github.com
+taf2-curb
+builder
+mdalessio-dryopteris --source gems.github.com
 pauldix-feedzirra --source gems.github.com

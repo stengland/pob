@@ -1,0 +1,148 @@
+body{
+	background: url(/images/bg-tile.jpg);
+}
+
+#page {
+		background: url(/images/line-bg.gif) repeat-x 0 161px;
+}
+
+#header {
+	position: relative;
+}
+
+#footer {
+	background:transparent url(/images/line-bg.gif) repeat-x scroll 0 0;
+}
+
+/*Navigation*/
+#navigation ul li {
+	list-style-type: none;
+}
+
+/*links*/
+a{color:#00fff6; text-decoration: underline;}
+a:hover{text-decoration: none;}
+
+#footer p a{text-decoration: none;}
+#footer p a:hover{text-decoration: underline;}
+
+#supporting-content a {color: #ff0000;}
+
+/*header*/
+
+#add-header {
+	background: url(/images/add-bg.gif) no-repeat top left;
+	width: 477px;
+	height: 77px;
+	position: absolute;
+	top: 20px;
+	right: 45px;
+}
+
+#side-add{
+	background: url(/images/side-add-bg.gif) no-repeat top left;
+	width: 124px;
+	height: 615px;
+	margin: 0 auto;
+}
+
+
+/*Main Content*/
+
+dl {
+	color: #f6f4ea;
+}
+
+dl dt {
+	background: #000 url(/images/item-top.jpg) no-repeat top left;
+}
+
+dl dt a{	color: #fff; text-decoration: none;}
+dl dt a:hover {	text-decoration: underline;}
+
+
+dl dd.bottom {
+	background: #000 url(/images/item-bottom.jpg) no-repeat bottom left;
+}
+
+/*footer*/
+a.facebook{color: #4e6ea5;}
+a.myspace{color: #24579a;}
+a.flickr{color: #187cde;} a.flickr span{color: #f04694;}
+a.youtube{color: #000;} a.youtube span{color: #f00;}
+a.twitter{color: #3dd9f0;}
+
+p.copy, p.copy a {color: #b9b398}
+
+/* Background Image Replacement */
+
+#header h1 a,
+a#sub-events,
+a#sub-facebook,
+a#sub-shop,
+a#sub-myspace,
+a#sub-podcasts,
+a.home-nav,
+p.intro,
+p.latest,
+a.rss,
+a.contact-nav {
+	text-indent: -1000em;
+	overflow: hidden;
+	text-align: left;
+	display: block;
+}
+
+p.intro {
+	width: 548px;
+	height: 146px;
+	background: url(/images/intro-text.gif) no-repeat 0 0;
+	margin-bottom: 20px;
+}
+
+p.latest{
+	width: 551;
+	height: 32px;
+	background: url(/images/latest.gif) no-repeat 0 0;
+	margin-bottom: 20px;
+}
+
+a.rss{
+	width: 89px;
+	height: 33px;
+	background: url(/images/rss.gif) no-repeat 0 0;
+}
+
+a.rss:hover{
+	background-position: 0 -33px;
+}
+
+#header h1 a{
+	width: 221px;
+	height: 141px;
+	background: url(/images/logo.jpg) no-repeat 0 0;
+}
+
+a.contact-nav {
+	width: 113px;
+	height: 113px;
+	background: url(/images/contact-nav.gif) no-repeat 0 0;
+}
+
+a#sub-events,
+a#sub-facebook,
+a#sub-shop,
+a#sub-myspace,
+a#sub-podcasts {
+	width:  240px;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+}
+
+a#sub-events {background-image: url(/images/sidebar/event.jpg); height: 230px;}
+a#sub-facebook {background-image: url(/images/sidebar/facebook.jpg); height: 64px;}
+a#sub-shop {background-image: url(/images/sidebar/shop.jpg); height: 235px;}
+a#sub-myspace {background-image: url(/images/sidebar/myspace.jpg); height: 64px;}
+a#sub-podcasts {background-image: url(/images/sidebar/podcast.jpg); height: 164px;}
+
+a.home-nav {background: url(/images/footer-title.jpg) 0 1px no-repeat; width: 230px; height: 41px;}

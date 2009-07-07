@@ -1,16 +1,65 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-
-  <title>Test</title>
-  
-</head>
-
-<body>
-   <%= yield %>
-
-</body>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+	
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<title>Property Of Bristol</title>
+		<link rel="stylesheet" type="text/css" href="/stylesheets/reset.css" media="screen" />
+		<link rel="stylesheet" type="text/css" href="/stylesheets/typography.css" media="screen" />
+		<link rel="stylesheet" type="text/css" href="/stylesheets/skin.css" media="screen" />
+		<link rel="stylesheet" type="text/css" href="/stylesheets/layout.css" media="screen" />
+		<link rel="stylesheet" type="text/css" href="/stylesheets/forms.css" media="screen" />
+		<link rel="stylesheet" type="text/css" href="/stylesheets/fancybox.css" media="screen" />
+		<link rel="stylesheet" type="text/css" href="/stylesheets/print.css" media="print" />
+		
+		<!--[if lt IE 8]><link rel="stylesheet" type="text/css" href="stylesheets/ie.css" media="screen" /><![endif]-->
+		
+    <!-- <script type="text/javascript" src="/javascripts/jquery.js"></script>
+    <script type="text/javascript" src="/js/fancybox.js"></script>
+    <script type="text/javascript" src="/js/cufon.js"></script> -->
+		
+	</head>
+	<body>
+		<div id="page">
+			<div id="wrapper">
+				<div id="header">
+					<h1><a href="/" title="home">Property Of Bristol</a></h1>
+					<div id="add-header">
+					 <img src="/images/add-header.gif" alt="add" />
+					</div>
+				</div>
+				<div id="navigation">
+					<ul>
+					  <li><a href="/" class="events-nav">Latest</a></li>
+					  <li><a href="/about" class="podcasts-nav">About</a></li>
+						<li><a href="/events" class="events-nav">Events</a></li>
+						<li><a href="/shop" class="shop-nav">Shop</a></li>
+						<li><a href="/podcasts" class="podcasts-nav">Podcasts/Mixes</a></li>
+						<li><a href="/contact" class="contact-nav">Hit Us Up!</a></li>
+					</ul>
+				</div>
+				<div id="content-area">
+					<%= yield %>
+				</div>
+			</div>
+		</div>
+		<div id="footer">
+			<div id="footer-wrapper">
+				<div id="navigation">
+					<ul>
+					  <li><a href="/" class="events-nav">Latest</a></li>
+					  <li><a href="/about" class="podcasts-nav">About</a></li>
+						<li><a href="/events" class="events-nav">Events</a></li>
+						<li><a href="/shop" class="shop-nav">Shop</a></li>
+						<li><a href="/podcasts" class="podcasts-nav">Podcasts/Mixes</a></li>
+						<li><a href="/contact" class="contact-nav">Hit Us Up!</a></li>
+					</ul>
+					
+				</div>
+				<p class="catch">Catch us on...  <a href="#" class="facebook">Facebook</a>&nbsp;&nbsp;&nbsp;&bull;&nbsp;&nbsp;&nbsp;<a href="#" class="myspace">MySpace</a>&nbsp;&nbsp;&nbsp;&bull;&nbsp;&nbsp;&nbsp;<a href="#" class="flickr">Flick<span>r</span></a>&nbsp;&nbsp;&nbsp;&bull;&nbsp;&nbsp;&nbsp;<a href="#" class="youtube">You<span>Tube</span></a>&nbsp;&nbsp;&nbsp;&bull;&nbsp;&nbsp;&nbsp;<a href="#" class="twitter">Twitter</a></p>
+				<p class="copy">Copyright 2009 - Property of Bristol  - <a href="mailto:hitusup@propertyofbristol.co.uk">hitusup [at] propertyofbristol.co.uk</a></p>
+			</div>
+		</div>
+	</body>
 </html>

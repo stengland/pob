@@ -1,0 +1,32 @@
+/*Contains all the CSS releating to forms*/
+
+#contact-form p{
+	padding-bottom: 10px;
+}
+
+#contact-form p:first-child{
+	padding-bottom: 30px;
+}
+
+#contact-form p.submit {
+	margin-top: 30px;
+}
+
+#contact-form p label {
+	width: 140px;
+	display: block;
+	float:  left;
+}
+
+#contact-form p input {
+	width: 200px;
+}
+
+#contact-form p textarea {
+	width: 266px;
+	height:  100px;
+}
+
+#contact-form p.submit #contact-submit {
+	margin-left: 140px;
+}

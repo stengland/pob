@@ -1,0 +1,56 @@
+/* 
+ TYPOGRAPHY
+ Font related information only (ie. font-*, text-*, line-height )
+ See http://www.alistapart.com/articles/howtosizetextincss for sizing technique
+
+*/
+body {
+	font-family: arial, verdana, sans-serif;
+  	/*font-size:100%; - This is defined in the reset.css so dont need it here*/
+  	line-height:1.125em; /* 16×1.125=18 */
+}
+h1, h2, h3, h4, h5, h6, dl dt{
+	line-height: 1.25em;
+}
+
+/*28px*/
+dl dt {	font-size: 1.5em;}
+
+/*18px*/
+dl dd {font-size: 1.125em;}
+
+/*16px*/
+p a, li p, li a, a span, dt a, dd a
+{
+	font-size: 1em;
+}
+
+/*14px*/
+p.catch {
+	font-size: 0.875em;
+}
+
+/*12px*/
+{
+	font-size: 0.75em;	
+}
+
+
+/*11px*/
+p, a, li, dd, dt, span {
+	font-size: 0.6875em;
+}
+
+/*9px*/
+
+{
+	font-size: 0.5625em;
+}
+
+a, dt {
+	font-weight: bold;
+}
+
+p.copy a{
+	font-weight: normal;
+}

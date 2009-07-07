@@ -9,9 +9,9 @@
 * Shop: Blog posts - In category Shop or similer (RSS Feed)
 * Podcast: Hosted podcast service (RSS Feed)
 
-# Shop Page
+# Shop
 
-Blogposts from the category Shop. Displayed in full text on the page. 
+
 
 # Podcasts Page
 Podcast Details taken from the RSS, listed in full detail.  

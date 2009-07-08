@@ -15,18 +15,13 @@
 <a class="rss" href="/feeds">RSS Feeds</a>
 <dl class="content-list">
 <% entries.each do |entry| %>
-  <dt>
-    <a href="<%= entry.url %>"> 
-    <% if entry.is_a? Feedzirra::ITunesRSSItem %>
-      <%= entry.summary %>
-      <% else %>
-      <%= entry.content %> 
-      <% end %>
-    </a>
-  </dt>
+
+  <dt><a href="<%= entry.url %>"><%= entry.title %></a></dt>
   <dd class="bottom">
     on <%= entry.published %>
+      <%= entry.summary %>
   </dd>
+  
 <% end %>
 </dl>
 

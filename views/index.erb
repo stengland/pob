@@ -16,17 +16,16 @@
 <dl class="content-list">
 <% entries.each do |entry| %>
   <dt>
-    <a href="<%= entry.url %>"><%= entry.title %></a>
+    <a href="<%= entry.url %>"> 
+    <% if entry.is_a? Feedzirra::ITunesRSSItem %>
+      <%= entry.summary %>
+      <% else %>
+      <%= entry.content %> 
+      <% end %>
+    </a>
   </dt>
   <dd class="bottom">
-    on <%= entry.published %> </a>
-    
-    <% if entry.is_a? Feedzirra::ITunesRSSItem %>
-    <%= entry.summary %>
-    <% else %>
-    <%= entry.content %> 
-    <% end %>
-        
+    on <%= entry.published %> </a>       
   </dd>
 <% end %>
 </dl>

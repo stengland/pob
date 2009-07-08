@@ -53,3 +53,15 @@ end
 get '/contact' do 
   erb :contact
 end
+
+get '/events' do 
+  erb :events
+end
+
+get '/shop' do 
+  erb :shop
+end
+
+get '/podcasts' do 
+  erb :podcasts
+end

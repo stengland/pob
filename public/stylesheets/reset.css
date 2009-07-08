@@ -72,3 +72,6 @@ p, blockquote, h1, h2 {
 	padding-bottom: 10px;
 }
 
+strong {font-weight: bold;}
+em{font-style: italic;}
+

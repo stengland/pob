@@ -28,6 +28,10 @@ a:hover{text-decoration: none;}
 
 #supporting-content a {color: #ff0000;}
 
+a.more-link {
+	color: #00e56c;
+}
+
 /*header*/
 
 #add-header {
@@ -65,6 +69,15 @@ dl dd.bottom {
 	background: #000 url(/images/item-bottom.jpg) no-repeat bottom left;
 }
 
+#main-content p{
+	color: #7f7853;
+}
+
+#main-content p.intro {
+	color: #000;
+}
+
+
 /*footer*/
 a.facebook{color: #4e6ea5;}
 a.myspace{color: #24579a;}
@@ -83,7 +96,6 @@ a#sub-shop,
 a#sub-myspace,
 a#sub-podcasts,
 a.home-nav,
-p.intro,
 p.latest,
 a.rss,
 a.contact-nav {
@@ -91,13 +103,6 @@ a.contact-nav {
 	overflow: hidden;
 	text-align: left;
 	display: block;
-}
-
-p.intro {
-	width: 548px;
-	height: 146px;
-	background: url(/images/intro-text.gif) no-repeat 0 0;
-	margin-bottom: 20px;
 }
 
 p.latest{

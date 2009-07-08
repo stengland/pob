@@ -92,6 +92,11 @@ a.rss {
 	top: 178px;
 }
 
+a.more-link, img.content-image {
+	margin-bottom: 20px;
+	display: block;
+}
+
 /*footer*/
 #footer p {
 	clear: both;

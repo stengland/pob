@@ -34,6 +34,9 @@ end
 
 # Quick test
 get '/' do
+  # Cache for 5 minutes
+  response.headers['Cache-Control'] = 'public, max-age=300'
+  
   updated_feeds = Feedzirra::Feed.update(Feeds.values)
   entries = []
   
@@ -47,9 +50,13 @@ end
 
 
 get '/about' do 
+  # Cache for 1 day
+  response.headers['Cache-Control'] = 'public, max-age=86400'
   erb :about
 end
 
 get '/contact' do 
+  # Cache for 1 day
+  response.headers['Cache-Control'] = 'public, max-age=86400'
   erb :contact
 end

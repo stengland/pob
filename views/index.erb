@@ -21,11 +21,7 @@
   <dd class="bottom">
     on <%= entry.published %> </a>
     
-    <% if entry.respond_to? 'content' %>
-    <%= entry.content %> 
-    <% else %>
     <%= entry.summary %>
-    <% end %>
         
   </dd>
 <% end %>

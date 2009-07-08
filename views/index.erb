@@ -21,7 +21,7 @@
   <dd class="bottom">
     on <%= entry.published %> </a>
     
-    <% if entry.is_a? Feedzirra::ITunesRSSItem %>
+    <% if entry.respond_to? 'summary' %>
     <%= entry.summary %>
     <% else %>
     <%= entry.content %> 

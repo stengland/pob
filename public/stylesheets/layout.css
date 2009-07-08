@@ -83,7 +83,6 @@ dl dt img {
 dl dd.bottom {
 	padding: 20px 20px 20px 20px;
 	margin-bottom:  20px;
-	text-align: right;
 }
 
 a.rss {
@@ -95,6 +94,10 @@ a.rss {
 a.more-link, img.content-image {
 	margin-bottom: 20px;
 	display: block;
+}
+
+span.right {
+	float: right;
 }
 
 /*footer*/

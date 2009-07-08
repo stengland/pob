@@ -18,8 +18,9 @@
 
   <dt><a href="<%= entry.url %>"><%= entry.title %></a></dt>
   <dd class="bottom">
-    on <%= entry.published %>
-      <%= entry.summary %>
+        <span class="right">on <%= entry.published %></span>
+    <%= entry.summary %>
+
   </dd>
   
 <% end %>

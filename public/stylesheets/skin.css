@@ -66,7 +66,7 @@ dl dt a:hover {	text-decoration: underline;}
 
 
 dl dd.bottom {
-	background: #000 url(/images/item-bottom.jpg) no-repeat bottom left;
+	background: url(/images/item-bottom.jpg) no-repeat top left;
 }
 
 #main-content p{

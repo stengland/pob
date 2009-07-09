@@ -8,7 +8,7 @@
 }
 
 #header {
-	margin: 20px 0 11px 0;
+	margin: 20px 0 10px 0;
 }
 
 #supporting-content{
@@ -29,30 +29,41 @@
 }
 
 /*Header*/
+#add-header {
+	width: 477px;
+	height: 77px;
+	position: absolute;
+	top: 20px;
+	right: 88px;
+}
+
+#side-add{
+	width: 124px;
+	height: 615px;
+	margin: 0 auto;
+}
 
 
 
 /*Navigation*/
 
-#navigation {
+.navigation {
 	height: 54px;
 	margin-bottom: 25px;
 	position: relative;
 }
 
 
-#navigation ul li {
+.navigation ul li {
 	float: left;
 	margin-right: 20px;
 }
 
 a.contact-nav {
 	position:absolute;
-	right:0;
-	top:15px;
+	right:2px;
+	top:16px;
 }
-
-#footer-wrapper a.contact-nav {top:16px;}
 
 #content-area {clear: both;}
 
@@ -105,7 +116,7 @@ span.right {
 	clear: both;
 }
 
-#footer #navigation li {height: 60px; margin-bottom: 20px;}
+#footer .navigation li {height: 60px; margin-bottom: 20px;}
 
 
 /* so:clearfix */

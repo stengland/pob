@@ -15,7 +15,7 @@ body{
 }
 
 /*Navigation*/
-#navigation ul li {
+.navigation ul li {
 	list-style-type: none;
 }
 
@@ -36,18 +36,10 @@ a.more-link {
 
 #add-header {
 	background: url(/images/add-bg.gif) no-repeat top left;
-	width: 477px;
-	height: 77px;
-	position: absolute;
-	top: 20px;
-	right: 45px;
 }
 
 #side-add{
 	background: url(/images/side-add-bg.gif) no-repeat top left;
-	width: 124px;
-	height: 615px;
-	margin: 0 auto;
 }
 
 
@@ -98,7 +90,8 @@ a#sub-podcasts,
 a.home-nav,
 p.latest,
 a.rss,
-a.contact-nav {
+a.contact-nav,
+.navigation li a {
 	text-indent: -1000em;
 	overflow: hidden;
 	text-align: left;
@@ -128,11 +121,41 @@ a.rss:hover{
 	background: url(/images/logo.jpg) no-repeat 0 0;
 }
 
-a.contact-nav {
+.navigation li a.contact-nav {
 	width: 113px;
 	height: 113px;
 	background: url(/images/contact-nav.gif) no-repeat 0 0;
 }
+
+.navigation li a {
+	height: 56px;
+	background: url(/images/menu.jpg) no-repeat 0 0;
+}
+
+.navigation li a.latest-nav {width:76px; background-position: 0 0;}
+.navigation li a.about-nav {width:69px; background-position: -92px 0;}
+.navigation li a.events-nav {width:81px; background-position: -182px 0;}
+.navigation li a.shop-nav {width:55px; background-position: -282px 0;}
+.navigation li a.podcasts-nav {width:192px; background-position: -357px 0;}
+
+.navigation li a.latest-nav:hover {width:76px; background-position: 0 -60px;}
+.navigation li a.about-nav:hover {width:69px; background-position: -92px -60px;}
+.navigation li a.events-nav:hover {width:81px; background-position: -182px -60px;}
+.navigation li a.shop-nav:hover {width:55px; background-position: -282px -60px;}
+.navigation li a.podcasts-nav:hover {width:192px; background-position: -357px -60px;}
+
+.navigation li a.latest-nav {width:76px; background-position: 0 0;}
+.navigation li a.about-nav {width:69px; background-position: -92px 0;}
+.navigation li a.events-nav {width:81px; background-position: -182px 0;}
+.navigation li a.shop-nav {width:55px; background-position: -282px 0;}
+.navigation li a.podcasts-nav {width:192px; background-position: -357px 0;}
+
+
+
+
+
+
+
 
 a#sub-events,
 a#sub-facebook,
@@ -149,5 +172,3 @@ a#sub-facebook {background-image: url(/images/sidebar/facebook.jpg); height: 64p
 a#sub-shop {background-image: url(/images/sidebar/shop.jpg); height: 235px;}
 a#sub-myspace {background-image: url(/images/sidebar/myspace.jpg); height: 64px;}
 a#sub-podcasts {background-image: url(/images/sidebar/podcast.jpg); height: 164px;}
-
-a.home-nav {background: url(/images/footer-title.jpg) 0 1px no-repeat; width: 230px; height: 41px;}

@@ -26,7 +26,6 @@ configure do
   feed_urls = [
      "http://twitter.com/statuses/user_timeline/30975043.rss",
      "http://propertyofbristol.blogspot.com/feeds/posts/default?alt=rss",
-     "http://api.flickr.com/services/feeds/photos_public.gne?id=39867411@N08&lang=en-us&format=rss_200",
      "http://gdata.youtube.com/feeds/base/users/PropertyofBristol/uploads?alt=rss&v=2&orderby=published&client=ytapi-youtube-profile"
   ]
   Feeds = Feedzirra::Feed.fetch_and_parse(feed_urls)

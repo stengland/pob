@@ -18,7 +18,7 @@
 }
 
 #main-content {
-	width:570px ;
+	width:550px ;
 	float: left;
 	position: relative;
 }
@@ -26,6 +26,7 @@
 #footer{
 	clear: both;
 	text-align: center;
+	margin-top: 10px;
 }
 
 /*Header*/
@@ -78,22 +79,36 @@ a.contact-nav {
 	margin-bottom: 0px;
 }
 
+#supporting-content p.team {
+	margin-bottom: 20px;
+}
+
+#supporting-content p.team a {
+	display: inline;
+}
+
+
 /*main content */
 
-dl dt {
-	padding: 20px 20px 0 20px;
-	clear:  both;
+#main-content p {
+	clear: both;
 }
 
-dl dt img {
-	float: left;
-	margin: 20px 0;
+#main-content .post p {
+	clear: none;
 }
 
 
-dl dd.bottom {
-	padding: 20px 20px 20px 20px;
-	margin-bottom:  20px;
+.post {
+	margin-bottom:40px;
+	padding-top:40px;
+	clear: both;
+}
+
+#main-content p.date {
+	padding: 9px 10px 10px 0;
+	text-align: right;
+	margin: 30px 0 20px 0;
 }
 
 a.rss {
@@ -102,15 +117,21 @@ a.rss {
 	top: 178px;
 }
 
-a.more-link, img.content-image {
+img.content-image {
 	margin-bottom: 20px;
 	display: block;
 }
 
-span.right {
-	float: right;
+a.more-link {
+	display:block;
+	float:left;
+	margin-bottom:20px;
+	padding:5px 5px 3px;
 }
 
+.post-image {
+	float: right;
+}
 /*footer*/
 #footer p {
 	clear: both;
@@ -122,7 +143,8 @@ span.right {
 /* so:clearfix */
 
 #page:after,
-#wrapper:after {
+#wrapper:after,
+.post:after {
 	content: "."; 
 	display: block; 
 	height: 0; 

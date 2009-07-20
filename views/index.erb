@@ -1,28 +1,26 @@
 <div id="supporting-content">
-	<a href="/events" id="sub-events">05.06.09 Basement 45 Takeover</a>
-	<a href="/facebook" id="sub-facebook">We're On Facebook</a>
-	<a href="/events" id="sub-shop">Screen Prints Original Artwork Cards &amp; T’s</a>
-	<a href="/events" id="sub-myspace">Myspace</a>
-	<a href="/events" id="sub-podcasts">Property of Bristol Podcast - Vol. 1 - </a>
+	<a href="/events" id="sub-events">07.08.09 Basement 45 Takeover</a>
+	<a href="http://www.facebook.com/home.php#/group.php?gid=58407869469&amp;ref=ts" id="sub-facebook">We're On Facebook</a>
+	<a href="/shop" id="sub-shop">Screen Prints Original Artwork Cards &amp; T’s</a>
+	<a href="http://www.myspace.com/propertyofbristol" id="sub-myspace">Myspace</a>
+	<a href="http://www.dnbshare.com/download/ThePodcastVol.04.mp3.html" id="sub-podcasts">Property of Bristol Podcast - Vol. 4 - </a>
 	<div id="side-add">
 	 <img src="/images/side-add.gif" alt="add"/>
 	</div>
 </div>
 <div id="main-content">
 
-<p class="intro">Property of Bristol is commited to sinking its fingers in all of your favourite Bristol pies... and we want you along for the ride! We’re looking for bold creative types to get involved ...all right and nice.</p>
+<p class="intro"><strong>Property of Bristol is committed to sinking its fingers in all of your favourite Bristol pies... </strong>and we want you along for the ride! We’re looking for bold creative types to <a href="/contact">get involved</a> ...all right and nice.</p>
 <p class="latest">Latest activity&hellip;</p>
 <!-- <a class="rss" href="/feeds">RSS Feeds</a> -->
-<dl class="content-list">
-<% entries.each do |entry| %>
 
-  <dt><a href="<%= entry.url %>"><%= entry.title %></a></dt>
-  <dd class="bottom">
-        <span class="right">on <%= entry.published %></span>
-    <%= entry.summary %>
-  </dd>
-  
+
+<% entries.each do |entry| %>
+<div class="post">
+	<h2><%= entry.title %></h2>
+	<p class="date"><%= entry.published %></p>
+	<p><%= entry.summary %></p>
+</div>
 <% end %>
-</dl>
 
 </div>

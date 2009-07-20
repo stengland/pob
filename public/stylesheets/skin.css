@@ -26,10 +26,28 @@ a:hover{text-decoration: none;}
 #footer p a{text-decoration: none;}
 #footer p a:hover{text-decoration: underline;}
 
-#supporting-content a {color: #ff0000;}
+#supporting-content a, p.intro a {color: #ff0000;}
 
 a.more-link {
-	color: #00e56c;
+	background: #00e56c;
+	color: #fff;
+	text-decoration: none;
+	display: inline;
+}
+
+p.team a, p.intro a {
+	text-decoration: none;
+	border-bottom: solid 1px red;
+}
+
+p.team a:hover, p.intro a:hover {
+	text-decoration: none;
+	border-bottom: none;
+	padding-bottom: 1px;
+}
+
+h2 a {
+	color: #000; text-decoration: none;
 }
 
 /*header*/
@@ -45,23 +63,15 @@ a.more-link {
 
 /*Main Content*/
 
-dl {
-	color: #f6f4ea;
+#main-content h1, #main-content h2 {
+	color: #000;
 }
 
-dl dt {
-	background: #000 url(/images/item-top.jpg) no-repeat top left;
-}
+.post {background: url(/images/top-line.gif) 0 top no-repeat;}
 
-dl dt a{	color: #fff; text-decoration: none;}
-dl dt a:hover {	text-decoration: underline;}
+#main-content p.date {color: #fff; background: url(/images/date-bg.gif) no-repeat 0 0; text-align: right; }
 
-
-dl dd.bottom {
-	background: url(/images/item-bottom.jpg) no-repeat top left;
-}
-
-#main-content p{
+#main-content {
 	color: #7f7853;
 }
 
@@ -100,9 +110,9 @@ a.contact-nav,
 
 p.latest{
 	width: 551;
-	height: 32px;
-	background: url(/images/latest.gif) no-repeat 0 0;
-	margin-bottom: 20px;
+	background:transparent url(/images/latest.gif) no-repeat scroll 0 -14px;
+	height:4px;
+	margin-bottom:7px;
 }
 
 a.rss{
@@ -167,8 +177,8 @@ a#sub-podcasts {
 	background-repeat: no-repeat;
 }
 
-a#sub-events {background-image: url(/images/sidebar/event.jpg); height: 230px;}
+a#sub-events {background-image: url(/images/sidebar/event.jpg); height: 238px;}
 a#sub-facebook {background-image: url(/images/sidebar/facebook.jpg); height: 64px;}
 a#sub-shop {background-image: url(/images/sidebar/shop.jpg); height: 235px;}
 a#sub-myspace {background-image: url(/images/sidebar/myspace.jpg); height: 64px;}
-a#sub-podcasts {background-image: url(/images/sidebar/podcast.jpg); height: 164px;}
+a#sub-podcasts {background-image: url(/images/sidebar/podcast.jpg); height: 170px;}

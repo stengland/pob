@@ -12,15 +12,16 @@
 }
 
 #supporting-content{
-	width: 220px;
+	width: 240px;
 	float: left;
-	margin: 0 40px 0 20px;
+	margin: 0 40px 0 0;
 }
 
 #main-content {
 	width:550px ;
 	float: left;
 	position: relative;
+	padding-top:17px;
 }
 
 #footer{
@@ -35,7 +36,7 @@
 	height: 77px;
 	position: absolute;
 	top: 20px;
-	right: 88px;
+	right: 108px;
 }
 
 #side-add{
@@ -57,12 +58,12 @@
 
 .navigation ul li {
 	float: left;
-	margin-right: 20px;
+	margin-right: 17px;
 }
 
 a.contact-nav {
 	position:absolute;
-	right:2px;
+	right:52px;
 	top:16px;
 }
 
@@ -92,6 +93,11 @@ a.contact-nav {
 
 #main-content p {
 	clear: both;
+}
+
+#main-content p.intro {
+	padding-right: 0px;
+	padding-bottom:40px;
 }
 
 #main-content .post p {
@@ -153,3 +159,39 @@ a.more-link {
 }
 
 /* eo:clearfix */ 
+
+
+
+
+/*Share link*/
+div.share-link {position: relative; display: inline; float: right; margin-right: 20px;}
+
+div.share-link p {padding: 5px 5px 3px 1px;}
+
+div.share-link ul {
+	display: block;
+	right: -1000000px;
+	position: absolute;
+	width: 140px;
+	padding: 10px 0;
+}
+
+div.share-link:hover ul {
+	right: 0;
+}
+
+div.share-link ul li {
+	padding: 0 10px;
+	list-style-type: none;
+}
+
+#main-content div.share-link ul li a{ color: #fff; text-decoration: none;}
+
+#main-content div.share-link ul li a:hover { color: #a7ffb1; text-decoration: none;}
+
+
+
+div.share-link p, div.share-link ul {
+	background: #00e56c;
+	color: #fff;
+}

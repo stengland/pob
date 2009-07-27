@@ -10,7 +10,7 @@
 </div>
 <div id="main-content">
 
-<p class="intro"><strong>Property of Bristol is committed to sinking its fingers in all of your favourite Bristol pies... </strong>and we want you along for the ride! We’re looking for bold creative types to <a href="/contact">get involved</a> ...all right and nice.</p>
+<p class="intro"><strong>Property of Bristol is committed to sinking its<br />fingers in all of your favourite Bristol pies... </strong>and<br />we want you along for the ride! We’re looking for bold creative types to <a href="/contact">get involved</a> ...all right and nice.</p>
 <p class="latest">Latest activity&hellip;</p>
 <!-- <a class="rss" href="/feeds">RSS Feeds</a> -->
 
@@ -18,6 +18,16 @@
 <% entries.each do |entry| %>
 <div class="post">
 	<h2><%= entry.title %></h2>
+	<div class="share-link">
+	  <p>+ Share</p>
+	  <ul>
+       <li><a href="#">via Email</a></li>
+       <li><a href="#">via delicious</a></li>
+       <li><a href="#">via Facebook</a></li>
+       <li><a href="#">via Stumble Upon</a></li>
+       <li><a href="#">via Twitter</a></li>
+	  </ul>
+	</div>
 	<p class="date"><%= entry.published %></p>
 	<p><%= entry.summary %></p>
 </div>

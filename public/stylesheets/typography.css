@@ -13,14 +13,18 @@ h1, h2, h3, h4, h5, h6, dl dt, p.intro{
 	line-height: 1.25em;
 }
 
+
+
+
+
 /*30px*/
 #main-content h2 {font-size: 1.875em;}
 
 /*28px*/
-p.intro {	font-size: 1.5em;}
+p.intro {	font-size: 1.25em;}
 
 /*18px*/
-a.more-link {font-size: 1.125em;}
+a.more-link, div.share-link p {font-size: 1.125em;}
 
 /*16px*/
 p a, li p, li a, a span, p span, h2 a
@@ -50,11 +54,11 @@ p, a, li, dd, dt, span {
 	font-size: 0.5625em;
 }
 
-a, h2, span.name {
+a, h2, span.name, div.share-link p {
 	font-weight: bold;
 }
 
-a.more-link {font-style: italic;}
+a.more-link, div.share-link p {font-style: italic;}
 
 p.copy a{
 	font-weight: normal;

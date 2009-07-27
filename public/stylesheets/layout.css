@@ -15,6 +15,8 @@
 	width: 240px;
 	float: left;
 	margin: 0 40px 0 0;
+	padding-top:17px;
+	
 }
 
 #main-content {
@@ -132,7 +134,7 @@ a.more-link {
 	display:block;
 	float:left;
 	margin-bottom:20px;
-	padding:5px 5px 3px;
+	padding:10px 10px 5px 5px;
 }
 
 .post-image {
@@ -166,7 +168,7 @@ a.more-link {
 /*Share link*/
 div.share-link {position: relative; display: inline; float: right; margin-right: 20px;}
 
-div.share-link p {padding: 5px 5px 3px 1px;}
+div.share-link p {padding: 10px 10px 5px 5px;}
 
 div.share-link ul {
 	display: block;

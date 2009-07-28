@@ -57,6 +57,9 @@
 	position: relative;
 }
 
+#footer .navigation {
+	margin-bottom: 15px;
+}
 
 .navigation ul li {
 	float: left;
@@ -145,6 +148,10 @@ a.more-link {
 	clear: both;
 }
 
+p.catch {
+	padding-bottom: 40px;
+}
+
 #footer .navigation li {height: 60px; margin-bottom: 20px;}
 
 
@@ -166,13 +173,13 @@ a.more-link {
 
 
 /*Share link*/
-div.share-link {position: relative; display: inline; float: right; margin-right: 20px;}
+div.share-link {position: relative; display: inline; float: right; margin-right: 20px; margin-top: 8px;}
 
-div.share-link p {padding: 10px 10px 5px 5px;}
+div.share-link p {padding: 0;}
 
 div.share-link ul {
 	display: block;
-	right: -1000000px;
+	left: -1000000px;
 	position: absolute;
 	width: 140px;
 	padding: 10px 0;
@@ -180,6 +187,7 @@ div.share-link ul {
 
 div.share-link:hover ul {
 	right: 0;
+	left: auto;
 }
 
 div.share-link ul li {
@@ -191,9 +199,7 @@ div.share-link ul li {
 
 #main-content div.share-link ul li a:hover { color: #a7ffb1; text-decoration: none;}
 
-
-
-div.share-link p, div.share-link ul {
+div.share-link ul {
 	background: #00e56c;
 	color: #fff;
 }

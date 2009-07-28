@@ -101,7 +101,8 @@ a.home-nav,
 p.latest,
 a.rss,
 a.contact-nav,
-.navigation li a {
+.navigation li a,
+div.share-link p {
 	text-indent: -1000em;
 	overflow: hidden;
 	text-align: left;
@@ -129,6 +130,16 @@ a.rss:hover{
 	width: 221px;
 	height: 141px;
 	background: url(/images/logo.jpg) no-repeat 0 0;
+}
+
+div.share-link p {
+	width: 100px;
+	height: 30px;
+	background: url(/images/share-button.gif) no-repeat 0 -37px;
+}
+
+div.share-link:hover p {
+	background-position: 0 0;
 }
 
 .navigation li a.contact-nav {

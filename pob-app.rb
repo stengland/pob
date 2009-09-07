@@ -1,5 +1,3 @@
-# "http://eventful.com/rss/users/propertyofbristol"
-
 # You'll need to require these if you
 # want to develop while running with ruby.
 # The config/rackup.ru requires these as well
@@ -24,7 +22,6 @@ configure do
   # only be run at Heroku at boot
 
   feed_urls = [
-     "http://twitter.com/statuses/user_timeline/30975043.rss",
      "http://propertyofbristol.blogspot.com/feeds/posts/default?alt=rss",
      "http://gdata.youtube.com/feeds/base/users/PropertyofBristol/uploads?alt=rss&v=2&orderby=published&client=ytapi-youtube-profile"
   ]

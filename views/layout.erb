@@ -16,11 +16,29 @@
 		<!--[if lt IE 8]><link rel="stylesheet" type="text/css" href="stylesheets/ie.css" media="screen" /><![endif]-->
 		
 		<script type="text/javascript" src="/javascripts/jquery.js"></script>
+		<script type="text/javascript" src="/javascripts/tweet.js"></script>
      <script type="text/javascript" src="/javascripts/cufon.js"></script>
      <script type="text/javascript" src="/javascripts/ITC_Lubalin_Graph_Std_400-ITC_Lubalin_Graph_Std_600-ITC_Lubalin_Graph_Std_oblique_400-ITC_Lubalin_Graph_Std_oblique_600.font.js"></script>
      
      <script type="text/javascript">
        Cufon.replace('p.team a', {hover: true})('p.intro')('p.team .name')('p.team .role')('a.more-link')('#main-content h1');
+     </script>
+     
+     <script type='text/javascript'>
+         $(document).ready(function(){
+             $(".tweet").tweet({
+                 username: " discoliam",
+                 join_text: "auto",
+                 avatar_size: 32,
+                 count: 3,
+                 auto_join_text_default: "we said,",
+                 auto_join_text_ed: "we",
+                 auto_join_text_ing: "we were",
+                 auto_join_text_reply: "we replied to",
+                 auto_join_text_url: "we were checking out",
+                 loading_text: "loading tweets..."
+             });
+         });
      </script>
 		
 	</head>

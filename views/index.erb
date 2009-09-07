@@ -4,6 +4,10 @@
 	<a href="/shop" id="sub-shop">Screen Prints Original Artwork Cards &amp; T’s</a>
 	<a href="http://www.myspace.com/propertyofbristol" id="sub-myspace">Myspace</a>
 	<a href="http://www.dnbshare.com/download/ThePodcastVol.04.mp3.html" id="sub-podcasts">Property of Bristol Podcast - Vol. 4 - </a>
+	
+ <div class="tweet"></div>  
+  
+  
 	<div id="side-add">
 	 <img src="/images/side-add.gif" alt="add"/>
 	</div>
@@ -28,7 +32,7 @@
        <li><a href="#">via Twitter</a></li>
 	  </ul>
 	</div>
-	<p class="date"><%= entry.published %></p>
+	<p class="date"><%= entry.categories %> - <%= entry.published %></p>
 	<p><%= entry.summary %></p>
 </div>
 <% end %>

@@ -43,8 +43,6 @@
 	margin: 0 auto;
 }
 
-
-
 /*Navigation*/
 
 .navigation {
@@ -110,6 +108,8 @@ a.more-link, img.content-image {
 span.right {
 	float: right;
 }
+
+p.intro {padding-right: 40px;}
 
 /*footer*/
 #footer p {

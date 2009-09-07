@@ -2,8 +2,8 @@
  TYPOGRAPHY
  Font related information only (ie. font-*, text-*, line-height )
  See http://www.alistapart.com/articles/howtosizetextincss for sizing technique
-
 */
+
 body {
 	font-family: arial, verdana, sans-serif;
   	/*font-size:100%; - This is defined in the reset.css so dont need it here*/
@@ -13,26 +13,33 @@ h1, h2, h3, h4, h5, h6, dl dt, p.intro{
 	line-height: 1.25em;
 }
 
+
+
+
+
+/*30px*/
+#main-content h2 {font-size: 1.875em;}
+
 /*28px*/
-dl dt, p.intro {	font-size: 1.5em;}
+p.intro {	font-size: 1.25em;}
 
 /*18px*/
-dl dd, a.more-link {font-size: 1.125em;}
+a.more-link, div.share-link p {font-size: 1.35em;}
 
 /*16px*/
-p a, li p, li a, a span, dt a, dd a
+p a, li p, li a, a span, p span, h2 a
 {
 	font-size: 1em;
 }
 
 /*14px*/
-p.catch {
+p.catch{
 	font-size: 0.875em;
 }
 
-/*12px*/
-{
-	font-size: 0.75em;	
+/*13px*/
+ p.team {
+	font-size: 0.8125em;	
 }
 
 
@@ -47,11 +54,11 @@ p, a, li, dd, dt, span {
 	font-size: 0.5625em;
 }
 
-a, dt {
+a, h2, span.name, div.share-link p {
 	font-weight: bold;
 }
 
-a.more-link {font-style: italic;}
+a.more-link, div.share-link p {font-style: italic;}
 
 p.copy a{
 	font-weight: normal;
